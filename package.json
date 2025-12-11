@@ -1,27 +1,21 @@
 {
-  "name": "whatsapp-bot-multi-device",
-  "version": "2.0.0",
-  "description": "WhatsApp Bot Multi-Device with iOS Button Support",
+  "name": "whatsapp-bot-md-buttons",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot with 10 iOS-Compatible Buttons for Pterodactyl",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-baileys",
-    "pino": "^8.15.0",
-    "qrcode-terminal": "^0.12.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "start": "node index.js"
   },
   "keywords": [
-    "whatsapp-bot",
-    "multi-device",
+    "whatsapp",
+    "bot",
     "baileys",
-    "ios-support"
+    "buttons"
   ],
-  "author": "@rexxhayanasi",
-  "license": "MIT"
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:kiuur/baileys",
+    "qrcode-terminal": "^0.12.0"
+  }
 }
